@@ -5,13 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:staged": "jest",
-    "prepare": "husky install"
+    "test:staged": "jest"
   },
   "lint-staged": {
-    "src/**/*.ts": [
-      "eslint --fix"
-    ]
+    "src/**/*.ts": "eslint --fix"
   },
   "keywords": [],
   "author": "",
@@ -26,7 +23,7 @@
     "eslint-plugin-n": "^15.3.0",
     "eslint-plugin-promise": "^6.1.1",
     "git-commit-msg-linter": "^4.2.1",
-    "husky": "^8.0.0",
+    "husky": "^8.0.1",
     "jest": "^29.2.2",
     "lint-staged": "^13.0.3",
     "ts-jest": "^29.0.3",
