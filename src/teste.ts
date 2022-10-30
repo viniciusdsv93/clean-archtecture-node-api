@@ -1,5 +1,5 @@
 function getName (): string {
-  return 'b'
+  return 'c'
 }
 
 getName()
