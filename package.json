@@ -7,6 +7,9 @@
     "test": "jest",
     "test:staged": "jest"
   },
+  "husky": {
+    "pre-commit": "echo 'teste'"
+  },
   "lint-staged": {
     "src/**/*.ts": "eslint 'src/**' --fix"
   },
