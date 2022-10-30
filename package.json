@@ -8,7 +8,7 @@
     "test:staged": "jest"
   },
   "lint-staged": {
-    "src/**/*.ts": "eslint --fix"
+    "src/**/*.ts": "eslint 'src/**' --fix"
   },
   "keywords": [],
   "author": "",
