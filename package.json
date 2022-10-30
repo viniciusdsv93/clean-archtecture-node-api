@@ -5,13 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:staged": "jest"
-  },
-  "husky": {
-    "pre-commit": "echo 'teste'"
-  },
-  "lint-staged": {
-    "src/**/*.ts": "eslint 'src/**' --fix"
+    "test:staged": "jest",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
