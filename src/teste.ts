@@ -1,5 +1,5 @@
-function getName (): string {
-  return 'c'
+function getName(): string {
+  return 'e';
 }
 
-getName()
+getName();

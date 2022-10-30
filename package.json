@@ -8,6 +8,11 @@
     "test:staged": "jest",
     "prepare": "husky install"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
