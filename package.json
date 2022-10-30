@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:staged": "jest"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "echo 'teste'"
     }
   },
-  "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
-  },
   "lint-staged": {
     "src/**/*.ts": [
-      "npx lint"
+      "eslint src"
     ]
   },
   "keywords": [],
