@@ -8,14 +8,9 @@
     "test:staged": "jest",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo 'teste'"
-    }
-  },
   "lint-staged": {
     "src/**/*.ts": [
-      "eslint"
+      "eslint --fix"
     ]
   },
   "keywords": [],
